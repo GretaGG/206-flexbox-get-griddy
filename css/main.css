@@ -107,6 +107,7 @@ body {
   font-size: 1.25em;
   height: 100%;
   color: #fff;
+
 }
 
 header,
@@ -114,12 +115,18 @@ footer {
   background-color: #222;
   height: 80px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
   background-color: #ccc;
   height: 250px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header,
@@ -129,6 +136,11 @@ main {
 }
 
 .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap; 
+  justify-content:space-between;
 
 }
 
@@ -139,6 +151,9 @@ main {
   background-color: #f16059;
   width: 30%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ==========================================================================
